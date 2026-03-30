@@ -21,23 +21,9 @@ CPU minimamente decente (originalmente testado num i3-N305, mas deve rodar em qu
 GPU opcional, mas ajuda a rodar melhor (se for algo de 2016 pra frente, sim)
 Python 3, Ollama, e paciência
 
-## Como construir?
-baixe o arquivo fonte (.zip), e use esse comando para construir o I.A.M
-`ollama create I.A.M -f ./Modelfile`
-
-para usar outros modelos, edite o arquivo Modelfile
-
 ### Como rodar?
 
 no seu terminal ou seja lá como rodar o python:
 basta rodar o arquivo IAM*.py
 ou
-`python3 IAM.py`
-
-gerencie as configurações com:
-`python3 IAMconfig.py`
-
-e gerencie as sessões com:
-`python3 sessionmgr.py`
-
-made with <3 by dellkkq
+> python3 IAM*.py
