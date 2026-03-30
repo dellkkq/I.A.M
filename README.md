@@ -1,2 +1,25 @@
 # I.A.M
 I.A.M > Inteligência Artificial Meta-Analítica
+
+## Uma IA filosófica, analítica, as vezes sarcástica, e humorista quando quer, baseado no Gemma 3 (4B)
+
+feito como um projeto pessoal para uma feira de ciências junto de um amigo
+
+(nome talvez inspirado no A.M.)
+
+### Recursos
+
+TTS (experimental): usando ALSA, continua muito experimental e muda constantemente
+Questionar a própria existência e a mente humana: não foi planejado, mas impressionante
+Te deixar pensativo: também inesperado, mas aconteceu
+
+## Requisitos
+
+Python 3, Ollama, e paciência
+
+### Como rodar?
+
+no seu terminal ou seja lá como rodar o python:
+basta rodar o arquivo IAM*.py
+ou
+> python3 IAM*.py
