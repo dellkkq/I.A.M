@@ -26,4 +26,10 @@ Python 3, Ollama, e paciência
 no seu terminal ou seja lá como rodar o python:
 basta rodar o arquivo IAM*.py
 ou
-> python3 IAM*.py
+`python3 IAM.py`
+
+edite a configuração com:
+`python3 IAMconfig.py`
+
+gerencie as sessões com:
+`python3 sessionmgr.py`
