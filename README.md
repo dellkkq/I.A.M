@@ -1,7 +1,7 @@
 # I.A.M
 I.A.M > Inteligência Artificial Meta-Analítica
 
-## Uma IA filosófica, analítica, as vezes sarcástica, e humorista quando quer, baseado no Gemma 3 (4B)
+## Uma IA filosófica, analítica, as vezes sarcástica, e humorista quando quer, baseado no Gemma 3
 
 feito como um projeto pessoal para uma feira de ciências junto de um amigo
 
@@ -9,17 +9,35 @@ feito como um projeto pessoal para uma feira de ciências junto de um amigo
 
 ### Recursos
 
-TTS (experimental): usando ALSA, continua muito experimental e muda constantemente
 Questionar a própria existência e a mente humana: não foi planejado, mas impressionante
 Te deixar pensativo: também inesperado, mas aconteceu
+Memória avançada e contexto salvos em arquivos de dados SQLite
+Gerenciador de sessões e configurações
+
 
 ## Requisitos
-
+CPU minimamente decente (originalmente testado num i3-N305, mas deve rodar em qualquer coisa acima de um i5-4xxx)
+8 GB de RAM pra uso minimo, mas recomendo 16 GB pra não ficar com a RAM cheia
+GPU opcional, mas ajuda a rodar melhor (se for algo de 2016 pra frente, sim)
 Python 3, Ollama, e paciência
+
+## Como construir?
+baixe o arquivo fonte (.zip), e use esse comando para construir o I.A.M
+`ollama create I.A.M -f ./Modelfile`
+
+para usar outros modelos, edite o arquivo Modelfile
 
 ### Como rodar?
 
 no seu terminal ou seja lá como rodar o python:
 basta rodar o arquivo IAM*.py
 ou
-> python3 IAM*.py
+`python3 IAM.py`
+
+gerencie as configurações com:
+`python3 IAMconfig.py`
+
+e gerencie as sessões com:
+`python3 sessionmgr.py`
+
+made with <3 by dellkkq
